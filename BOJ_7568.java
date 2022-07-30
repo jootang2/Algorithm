@@ -1,20 +1,25 @@
 package juhwan;
 
-import java.util.Scanner;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.StringTokenizer;
 
 public class BOJ_7568 {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+    public static void main(String[] args) throws IOException {
 
-        int N = sc.nextInt();
+        BufferedReader br = new BufferedReader(new InputStreamReader((System.in)));
+        StringTokenizer st;
+        int N = Integer.parseInt(br.readLine());
         int[] arrX = new int[N];
         int[] arrY = new int[N];
         int[] rank = new int[N];
 
 
         for (int i = 0; i < N; i++) {
-            int X = sc.nextInt();
-            int Y = sc.nextInt();
+            st = new StringTokenizer(br.readLine(), " ");
+            int X = Integer.parseInt(st.nextToken());
+            int Y = Integer.parseInt(st.nextToken());
 
             arrX[i] = X;
             arrY[i] = Y;
