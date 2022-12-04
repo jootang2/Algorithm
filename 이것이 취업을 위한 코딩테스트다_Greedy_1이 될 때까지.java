@@ -26,7 +26,7 @@ public class Greedy_ex_3 {
     }
 
     private static void rule(int N, int K){
-        if(N > K){
+        if(N >= K){
             if(N == 1){
                 return;
             } else {
