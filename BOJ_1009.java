@@ -7,7 +7,7 @@ import java.util.StringTokenizer;
 
 public class BOJ_1009 {
     public static void main(String[] args) throws IOException {
-
+//test
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st;
         int T = Integer.parseInt(br.readLine()); // 테스트 케이스의 수
