@@ -2,7 +2,7 @@ package juhwan;
 
 import java.util.Scanner;
 
-public class 구현_ex_3 {
+class 구현_ex_3 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String input = sc.nextLine();
